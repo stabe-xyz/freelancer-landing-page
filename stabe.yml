@@ -1,0 +1,26 @@
+params:
+  - name: headline
+    description: Headline in the hero section
+    required: true
+  - name: subheadline
+    description: Subheadline in the hero section
+    required: true
+  - name: title
+    description: Website's title (<title> tag)
+    required: false
+    default: ""
+  - name: description
+    description: "Website's description (<meta name='description'> tag)"
+    required: false
+    default: ""
+  - name: name
+    description: Professional's name
+    required: true
+  - name: linkedin_profile_url
+    description: LinkedIn's profile URL
+    required: true
+  - name: email
+    description: Professional's contact email
+    required: true
+  
+  

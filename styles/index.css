@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'BeVietnamPro';
+  src: url(./Be_Vietnam_Pro/BeVietnamPro-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BeVietnamPro';
+  src: url(./Be_Vietnam_Pro/BeVietnamPro-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AlfaSlabOne';
+  src: url(./Alfa_Slab_One/AlfaSlabOne-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  color: #1d262a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+body,
+button {
+  font-family: 'BeVietnamPro', sans-serif;
+}
