@@ -8,7 +8,7 @@ const Header = () => {
         <div className="text-2xl tracking-wider font-bold" style={{
           fontFamily: "AlfaSlabOne"
         }}>
-          <Link href="/">{{ name }}</Link>
+          <Link href="/">{{ stabe.name }}</Link>
         </div>
       </div>
     </nav>
