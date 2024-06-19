@@ -8,8 +8,8 @@ export default function Index() {
       {/* Hero section */}
       <section className='px-10 flex mt-20 mb-32 md:mt-0 lg:mt-0 md:mb-0 lg:mb-0 md:items-center lg:items-center md:p-40 lg:p-40'>
         <div className='flex flex-col'>
-          <h1 className='text-4xl text-center md:text-7xl lg:text-7xl md:text-start lg:text-start'>{{ headline }}</h1>
-          <h2 className='mt-6 text-xl text-zinc-500 text-center md:text-left lg:text-left'>{{ subheadline }}</h2>
+          <h1 className='text-4xl text-center md:text-7xl lg:text-7xl md:text-start lg:text-start'>{{ stabe.headline }}</h1>
+          <h2 className='mt-6 text-xl text-zinc-500 text-center md:text-left lg:text-left'>{{ stabe.subheadline }}</h2>
           <div className='self-center md:self-start lg:self-start'>
             <a href="#contact" className="mt-16 inline-flex text-white bg-violet-700 rounded-lg px-5 py-2.5">
               Get in touch now
@@ -101,7 +101,7 @@ export default function Index() {
           <div className='flex flex-col '>
             <h2 className='text-4xl'>Want to work together?</h2>
             <h3 className='mt-20 underline text-4xl lg:text-8xl'>
-              <a href="mailto:{{ email }}">{{ email }}</a>
+              <a href="mailto:{{ stabe.email }}">{{ stabe.email }}</a>
             </h3>
           </div>
         </Container>
